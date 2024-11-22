@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashBoard_SAP", "DashBoard_SAP\DashBoard_SAP.csproj", "{AE8793EC-8C52-4209-A911-EA7780DB1D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE8793EC-8C52-4209-A911-EA7780DB1D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8793EC-8C52-4209-A911-EA7780DB1D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8793EC-8C52-4209-A911-EA7780DB1D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8793EC-8C52-4209-A911-EA7780DB1D39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {069294AB-8B30-4887-804D-3C05026468B3}
+	EndGlobalSection
+EndGlobal

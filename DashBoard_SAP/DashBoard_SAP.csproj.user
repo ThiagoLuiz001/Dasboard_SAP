@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Forms\FrmConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Style\Style_Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\Style\Style_Grid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\Style\Style_GroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\Style\Style_Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\Style\Style_TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\FrmDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
