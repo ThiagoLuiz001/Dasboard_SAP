@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DashBoard de Capacidade\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|c:\\dashboard de capacidade\\dashboard de capacidade\\forms\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|solutionrelative:dashboard de capacidade\\forms\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|C:\\DashBoard de Capacidade\\dashboard de capacidade\\forms\\frmvendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|solutionrelative:dashboard de capacidade\\forms\\frmvendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|c:\\dashboard de capacidade\\dashboard de capacidade\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|solutionrelative:dashboard de capacidade\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|c:\\dashboard de capacidade\\dashboard de capacidade\\forms\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|solutionrelative:dashboard de capacidade\\forms\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|c:\\dashboard de capacidade\\dashboard de capacidade\\models\\capacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|solutionrelative:dashboard de capacidade\\models\\capacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|c:\\dashboard de capacidade\\dashboard de capacidade\\models\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|solutionrelative:dashboard de capacidade\\models\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|c:\\dashboard de capacidade\\dashboard de capacidade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29680EA6-C016-43DA-8B71-95A3C69403C4}|DashBoard de Capacidade\\DashBoard de Capacidade.csproj|solutionrelative:dashboard de capacidade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "DashBoard de Capacidade\\Properties\\Resources.resx",
+              "ToolTip": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Properties\\Resources.resx",
+              "RelativeToolTip": "DashBoard de Capacidade\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-11-22T11:48:07.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmDashBoard.cs",
+              "DocumentMoniker": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Forms\\FrmDashBoard.cs",
+              "RelativeDocumentMoniker": "DashBoard de Capacidade\\Forms\\FrmDashBoard.cs",
+              "ToolTip": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Forms\\FrmDashBoard.cs*",
+              "RelativeToolTip": "DashBoard de Capacidade\\Forms\\FrmDashBoard.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAIcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T11:39:23.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmDashBoard.cs [Projeto]",
+              "DocumentMoniker": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Forms\\FrmDashBoard.cs",
+              "RelativeDocumentMoniker": "DashBoard de Capacidade\\Forms\\FrmDashBoard.cs",
+              "ToolTip": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Forms\\FrmDashBoard.cs [Projeto]*",
+              "RelativeToolTip": "DashBoard de Capacidade\\Forms\\FrmDashBoard.cs [Projeto]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T16:19:59.971Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Program.cs",
+              "RelativeDocumentMoniker": "DashBoard de Capacidade\\Program.cs",
+              "ToolTip": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Program.cs",
+              "RelativeToolTip": "DashBoard de Capacidade\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:41:45.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmVendas.cs [Projeto]",
+              "DocumentMoniker": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Forms\\FrmVendas.cs",
+              "RelativeDocumentMoniker": "DashBoard de Capacidade\\Forms\\FrmVendas.cs",
+              "ToolTip": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Forms\\FrmVendas.cs [Projeto]",
+              "RelativeToolTip": "DashBoard de Capacidade\\Forms\\FrmVendas.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T17:24:43.423Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Base.cs",
+              "DocumentMoniker": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Models\\Base.cs",
+              "RelativeDocumentMoniker": "DashBoard de Capacidade\\Models\\Base.cs",
+              "ToolTip": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Models\\Base.cs",
+              "RelativeToolTip": "DashBoard de Capacidade\\Models\\Base.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T13:03:16.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Capacity.cs",
+              "DocumentMoniker": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Models\\Capacity.cs",
+              "RelativeDocumentMoniker": "DashBoard de Capacidade\\Models\\Capacity.cs",
+              "ToolTip": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\Models\\Capacity.cs",
+              "RelativeToolTip": "DashBoard de Capacidade\\Models\\Capacity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:39:41.124Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

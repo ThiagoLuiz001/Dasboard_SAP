@@ -1,0 +1,58 @@
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.exe
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.deps.json
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.runtimeconfig.json
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.pdb
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard_de_Capacidade.FrmDashBoard.resources
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard_de_Capacidade.Properties.Resources.resources
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.csproj.GenerateResource.cache
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.AssemblyInfoInputs.cache
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.AssemblyInfo.cs
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.csproj.CoreCompileInputs.cache
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\refint\DashBoard de Capacidade.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.pdb
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.genruntimeconfig.cache
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\ref\DashBoard de Capacidade.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.csproj.AssemblyReference.cache
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoar.131C9A29.Up2Date
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard_de_Capacidade.Forms.FrmVendas.resources
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.Auth.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.Core.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.Sheets.v4.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\System.Management.dll
+C:\Baldi\Aplicativos\C#\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.exe
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.deps.json
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.runtimeconfig.json
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.pdb
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.Auth.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.Core.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.Sheets.v4.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\System.Management.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.csproj.AssemblyReference.cache
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard_de_Capacidade.FrmDashBoard.resources
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard_de_Capacidade.Forms.FrmVendas.resources
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard_de_Capacidade.Properties.Resources.resources
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.csproj.GenerateResource.cache
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.GeneratedMSBuildEditorConfig.editorconfig
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.AssemblyInfoInputs.cache
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.AssemblyInfo.cs
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.csproj.CoreCompileInputs.cache
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoar.131C9A29.Up2Date
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\refint\DashBoard de Capacidade.dll
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.pdb
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.genruntimeconfig.cache
+C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\ref\DashBoard de Capacidade.dll
