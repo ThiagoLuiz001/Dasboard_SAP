@@ -7,12 +7,52 @@
       "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\dao\\local\\connectionfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\models\\exceptons\\exceptionfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\models\\exceptons\\exceptionfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\models\\entities\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\models\\entities\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\dao\\ssms\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\dao\\ssms\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\dao\\local\\capacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\dao\\local\\capacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\dao\\local\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\dao\\local\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\models\\exceptions\\exceptionlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\models\\exceptions\\exceptionlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\services\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\services\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\models\\exceptions\\exceptionssms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\models\\exceptions\\exceptionssms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\models\\exceptions\\exceptionfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\models\\exceptions\\exceptionfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\services\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\services\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\models\\enums\\enumprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\models\\enums\\enumprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\models\\enums\\enumstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\models\\enums\\enumstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\forms\\frmconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +63,8 @@
       "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\forms\\frmconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\models\\entities\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\models\\entities\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\models\\enums\\enumstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\models\\enums\\enumstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\forms\\frmdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\forms\\frmdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|c:\\programas para salvar\\dashboard_sap\\dashboard_sap\\models\\exceptons\\exceptionlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8793EC-8C52-4209-A911-EA7780DB1D39}|DashBoard_SAP\\DashBoard_SAP.csproj|solutionrelative:dashboard_sap\\models\\exceptons\\exceptionlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,39 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExceptionFiles.cs",
-              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Exceptons\\ExceptionFiles.cs",
-              "RelativeDocumentMoniker": "DashBoard_SAP\\Models\\Exceptons\\ExceptionFiles.cs",
-              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Exceptons\\ExceptionFiles.cs",
-              "RelativeToolTip": "DashBoard_SAP\\Models\\Exceptons\\ExceptionFiles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DAO\\Local\\Report.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\DAO\\Local\\Report.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DAO\\Local\\Report.cs",
+              "RelativeToolTip": "DashBoard_SAP\\DAO\\Local\\Report.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDwAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T16:56:03.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Consultation.cs",
-              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Services\\Consultation.cs",
-              "RelativeDocumentMoniker": "DashBoard_SAP\\Services\\Consultation.cs",
-              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Services\\Consultation.cs",
-              "RelativeToolTip": "DashBoard_SAP\\Services\\Consultation.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T15:05:16.97Z"
+              "WhenOpened": "2024-11-25T13:12:27.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,14 +101,142 @@
               "RelativeDocumentMoniker": "DashBoard_SAP\\DAO\\Local\\ConnectionFile.cs",
               "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DAO\\Local\\ConnectionFile.cs",
               "RelativeToolTip": "DashBoard_SAP\\DAO\\Local\\ConnectionFile.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADcAAABDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T13:36:59.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionLogic.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Exceptions\\ExceptionLogic.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\Models\\Exceptions\\ExceptionLogic.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Exceptions\\ExceptionLogic.cs",
+              "RelativeToolTip": "DashBoard_SAP\\Models\\Exceptions\\ExceptionLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:12:53.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Capacity.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DAO\\Local\\Capacity.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\DAO\\Local\\Capacity.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DAO\\Local\\Capacity.cs",
+              "RelativeToolTip": "DashBoard_SAP\\DAO\\Local\\Capacity.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwB8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T11:54:58.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DAO\\SSMS\\Connection.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\DAO\\SSMS\\Connection.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DAO\\SSMS\\Connection.cs",
+              "RelativeToolTip": "DashBoard_SAP\\DAO\\SSMS\\Connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T11:19:25.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Production.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Entities\\Production.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\Models\\Entities\\Production.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Entities\\Production.cs",
+              "RelativeToolTip": "DashBoard_SAP\\Models\\Entities\\Production.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:36:00.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExceptionSSMS.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Exceptions\\ExceptionSSMS.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\Models\\Exceptions\\ExceptionSSMS.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Exceptions\\ExceptionSSMS.cs",
+              "RelativeToolTip": "DashBoard_SAP\\Models\\Exceptions\\ExceptionSSMS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T11:36:24.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExceptionFiles.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Exceptions\\ExceptionFiles.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\Models\\Exceptions\\ExceptionFiles.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Exceptions\\ExceptionFiles.cs",
+              "RelativeToolTip": "DashBoard_SAP\\Models\\Exceptions\\ExceptionFiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:56:03.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Consultation.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Services\\Consultation.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\Services\\Consultation.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Services\\Consultation.cs",
+              "RelativeToolTip": "DashBoard_SAP\\Services\\Consultation.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:05:16.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Variables.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Services\\Variables.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\Services\\Variables.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Services\\Variables.cs",
+              "RelativeToolTip": "DashBoard_SAP\\Services\\Variables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:46:44.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Program.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\Program.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Program.cs",
+              "RelativeToolTip": "DashBoard_SAP\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:34:41.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnumProd.cs",
+              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Enums\\EnumProd.cs",
+              "RelativeDocumentMoniker": "DashBoard_SAP\\Models\\Enums\\EnumProd.cs",
+              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Enums\\EnumProd.cs",
+              "RelativeToolTip": "DashBoard_SAP\\Models\\Enums\\EnumProd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:48:16.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "FrmConfiguration.cs",
               "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Forms\\FrmConfiguration.cs",
               "RelativeDocumentMoniker": "DashBoard_SAP\\Forms\\FrmConfiguration.cs",
@@ -108,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "FrmConfiguration.cs [Projeto]",
               "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Forms\\FrmConfiguration.cs",
               "RelativeDocumentMoniker": "DashBoard_SAP\\Forms\\FrmConfiguration.cs",
@@ -119,19 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Production.cs",
-              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Entities\\Production.cs",
-              "RelativeDocumentMoniker": "DashBoard_SAP\\Models\\Entities\\Production.cs",
-              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Entities\\Production.cs",
-              "RelativeToolTip": "DashBoard_SAP\\Models\\Entities\\Production.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAmwDsAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:36:00.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "FrmDash.cs",
               "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Forms\\FrmDash.cs",
               "RelativeDocumentMoniker": "DashBoard_SAP\\Forms\\FrmDash.cs",
@@ -143,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "EnumStatus.cs",
               "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Enums\\EnumStatus.cs",
               "RelativeDocumentMoniker": "DashBoard_SAP\\Models\\Enums\\EnumStatus.cs",
@@ -152,18 +281,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T11:21:06.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ExceptionLogic.cs",
-              "DocumentMoniker": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Exceptons\\ExceptionLogic.cs",
-              "RelativeDocumentMoniker": "DashBoard_SAP\\Models\\Exceptons\\ExceptionLogic.cs",
-              "ToolTip": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\Models\\Exceptons\\ExceptionLogic.cs",
-              "RelativeToolTip": "DashBoard_SAP\\Models\\Exceptons\\ExceptionLogic.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:12:53.836Z"
             }
           ]
         }

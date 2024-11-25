@@ -8,63 +8,35 @@ using System.Threading.Tasks;
 using System.Security.Permissions;
 using DashBoard_SAP.Models.Entities;
 using DashBoard_SAP.Services;
-
+using DashBoard_SAP.Models.Exceptions;
 namespace DashBoard_SAP.DAO.Local
 {
-    public class ConnectionFile
+    public static class ConnectionFile
     {
-        private string _path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+        public static string _path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-        public ConnectionFile() { }
-
-        /// <summary>
-        /// Procura os dados salvos da capacidade
-        /// </summary>
-        /// <returns></returns>
-        public Dictionary<string,Production> SearchCapacity()
+        public static bool ExistsFile(string path)
         {
-            var search = new Dictionary<string,Production>();
-            string filepath = _path + $@"\Files\storage.txt";
             try
             {
-                using(StreamReader sr = File.OpenText(filepath))
+                if (File.Exists(path))
                 {
-                    var p = new HashSet<Production>();
-                    while (!sr.EndOfStream)
-                    {
-                        string line = sr.ReadLine();
-                        string[] text = line.Split("|");
-                        p.Add(new Production(text[0], Double.Parse(text[1]), Double.Parse(text[2]), (DateTime.Parse(text[3]))));
-                    }
-                    search = Consultation.ConferProductionFile(p);
+                    return true;
                 }
+                return false;
             }
-            catch(IOException ex) 
+            catch
             {
-                MessageBox.Show($"Erro: {ex.Message}");
-            }
-
-            return search;
-        }
-
-
-        public void SaveCapacity(Dictionary<string,Production> prod)
-        {
-            string filepath = _path + $@"\Files\storage.txt";
-            try
-            {
-                using (StreamWriter sw = File.CreateText(filepath))
-                {
-                    foreach (var p in prod)
-                    {
-                        sw.WriteLine(p.ToString());
-                    }
-                }
-            }
-            catch (IOException ex)
-            {
-                MessageBox.Show($"Erro: {ex.Message}");
+                throw new ExceptionFiles($"Caminho de rquivo não encontrado {path}");
             }
         }
+        
+
+
+
+
+
     }
+
+
 }

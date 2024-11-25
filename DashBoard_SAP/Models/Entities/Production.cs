@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DashBoard_SAP.Models.Exceptons;
+using DashBoard_SAP.Models.Exceptions;
 using DashBoard_SAP.Models.Enums;
 
 namespace DashBoard_SAP.Models.Entities
