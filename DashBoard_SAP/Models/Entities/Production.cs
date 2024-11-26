@@ -10,18 +10,23 @@ namespace DashBoard_SAP.Models.Entities
 {
     public sealed class Production
     {
+        private double _production;
+
         public string Product { get; set; }
         public double Capacity { get; set; }
+        public double _Production {
+            get
+            {
+                return _production;
+            }
+        }
         public double Consumption
         {
             get
             {
-                return Consumption;
+                return Capacity - _production;
             }
-            set
-            {
-                Consumption = Capacity - value;
-            }
+
         }
         public EnumStatus Status
         {
@@ -51,7 +56,7 @@ namespace DashBoard_SAP.Models.Entities
         {
             Product = product;
             Capacity = capacity;
-            Consumption = consuption;
+            _production = consuption;
             Time = time;
         }
 

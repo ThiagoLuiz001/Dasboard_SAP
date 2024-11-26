@@ -56,3 +56,33 @@ C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\refi
 C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.pdb
 C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.genruntimeconfig.cache
 C:\DashBoard de Capacidade\DashBoard de Capacidade\obj\Debug\net8.0-windows\ref\DashBoard de Capacidade.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.exe
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.deps.json
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.runtimeconfig.json
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\DashBoard de Capacidade.pdb
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.Auth.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.Core.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\Google.Apis.Sheets.v4.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\System.Management.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.csproj.AssemblyReference.cache
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard_de_Capacidade.FrmDashBoard.resources
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard_de_Capacidade.Forms.FrmVendas.resources
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard_de_Capacidade.Properties.Resources.resources
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.csproj.GenerateResource.cache
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.AssemblyInfoInputs.cache
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.AssemblyInfo.cs
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.csproj.CoreCompileInputs.cache
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.sourcelink.json
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoar.131C9A29.Up2Date
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\refint\DashBoard de Capacidade.dll
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.pdb
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\DashBoard de Capacidade.genruntimeconfig.cache
+C:\Programas para salvar\DashBoard_SAP\DashBoard de Capacidade(PROGRAMA SEPARADO)\DashBoard de Capacidade\obj\Debug\net8.0-windows\ref\DashBoard de Capacidade.dll

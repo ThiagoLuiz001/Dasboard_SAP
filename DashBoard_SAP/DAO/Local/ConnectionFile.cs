@@ -11,7 +11,7 @@ using DashBoard_SAP.Services;
 using DashBoard_SAP.Models.Exceptions;
 namespace DashBoard_SAP.DAO.Local
 {
-    public static class ConnectionFile
+    public class ConnectionFile
     {
         public static string _path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
@@ -30,9 +30,45 @@ namespace DashBoard_SAP.DAO.Local
                 throw new ExceptionFiles($"Caminho de rquivo não encontrado {path}");
             }
         }
-        
 
 
+
+
+        private static bool ExistDirectory(string path)
+        {
+            if (!Directory.Exists(path))
+            {
+                return false;
+            }
+            return true;
+        }
+
+
+
+
+        public static void CreationFile (string path, string file)
+        {
+            string archive = Path.Combine(path, file) + ".txt";
+            if (ExistDirectory(path))
+            {
+                if (ExistsFile(archive))
+                {
+                    MessageBox.Show("O arquivo de texto já existe.");
+                }
+                else
+                {
+                    using (FileStream cr = File.Create(archive))
+                    {
+
+                    }
+                }
+            }
+            else
+            {
+                Directory.CreateDirectory(path);
+                return;
+            }
+        }
 
 
 

@@ -383,11 +383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\DashBoard de Capacidade.csproj",
+      "projectUniqueName": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard de Capacidade(PROGRAMA SEPARADO)\\DashBoard de Capacidade\\DashBoard de Capacidade.csproj",
       "projectName": "DashBoard de Capacidade",
-      "projectPath": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\DashBoard de Capacidade.csproj",
+      "projectPath": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard de Capacidade(PROGRAMA SEPARADO)\\DashBoard de Capacidade\\DashBoard de Capacidade.csproj",
       "packagesPath": "C:\\Users\\Pcp4\\.nuget\\packages\\",
-      "outputPath": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\obj\\",
+      "outputPath": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard de Capacidade(PROGRAMA SEPARADO)\\DashBoard de Capacidade\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

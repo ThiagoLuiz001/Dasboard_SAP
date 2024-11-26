@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDashBoard));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             panelMenu = new Panel();
             btnAtualizar = new Button();
             pictureBox1 = new PictureBox();
@@ -224,7 +224,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.Snow;
-            label4.Location = new Point(138, 98);
+            label4.Location = new Point(138, 95);
             label4.Name = "label4";
             label4.Size = new Size(52, 14);
             label4.TabIndex = 3;
@@ -235,7 +235,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Snow;
-            label3.Location = new Point(138, 71);
+            label3.Location = new Point(138, 56);
             label3.Name = "label3";
             label3.Size = new Size(67, 14);
             label3.TabIndex = 2;
@@ -267,11 +267,11 @@
             chartCapacidade.BackColor = Color.FromArgb(228, 112, 33);
             chartCapacidade.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.TopBottom;
             chartCapacidade.BorderlineColor = Color.FromArgb(228, 112, 33);
-            chartArea1.Name = "ChartArea1";
-            chartCapacidade.ChartAreas.Add(chartArea1);
+            chartArea3.Name = "ChartArea1";
+            chartCapacidade.ChartAreas.Add(chartArea3);
             chartCapacidade.Dock = DockStyle.Fill;
-            legend1.Name = "Legend1";
-            chartCapacidade.Legends.Add(legend1);
+            legend3.Name = "Legend1";
+            chartCapacidade.Legends.Add(legend3);
             chartCapacidade.Location = new Point(0, 76);
             chartCapacidade.Name = "chartCapacidade";
             chartCapacidade.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
@@ -280,16 +280,16 @@
     Color.FromArgb(228, 112, 33),
     Color.SpringGreen
     };
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedBar;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedBar;
-            series2.Legend = "Legend1";
-            series2.Name = "Series2";
-            chartCapacidade.Series.Add(series1);
-            chartCapacidade.Series.Add(series2);
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedBar;
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedBar;
+            series6.Legend = "Legend1";
+            series6.Name = "Series2";
+            chartCapacidade.Series.Add(series5);
+            chartCapacidade.Series.Add(series6);
             chartCapacidade.Size = new Size(644, 279);
             chartCapacidade.TabIndex = 1;
             chartCapacidade.Text = "chart1";
@@ -614,7 +614,7 @@
             label27.AutoSize = true;
             label27.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label27.ForeColor = Color.Snow;
-            label27.Location = new Point(138, 71);
+            label27.Location = new Point(138, 57);
             label27.Name = "label27";
             label27.Size = new Size(67, 14);
             label27.TabIndex = 2;
@@ -664,6 +664,7 @@
             pictureBox6.Location = new Point(3, 3);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(127, 130);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 7;
             pictureBox6.TabStop = false;
             // 

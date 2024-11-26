@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sfHOnv7CrdI=",
+  "dgSpecHash": "0FU6kFDkN8s=",
   "success": true,
-  "projectFilePath": "C:\\DashBoard de Capacidade\\DashBoard de Capacidade\\DashBoard de Capacidade.csproj",
+  "projectFilePath": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard de Capacidade(PROGRAMA SEPARADO)\\DashBoard de Capacidade\\DashBoard de Capacidade.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pcp4\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
     "C:\\Users\\Pcp4\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",

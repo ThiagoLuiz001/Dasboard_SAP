@@ -47,7 +47,7 @@ namespace DashBoard_SAP.Services
             {
                 foreach(KeyValuePair<string,Production> prod in Variables.Prod)
                 {
-                    if(DateTime.Now.Month.CompareTo(prod.Value.Time.Month) == 1)
+                    if(DateTime.Now.Month.CompareTo(prod.Value.Time.Month) == 1 && DateTime.Now.Year.CompareTo(prod.Value.Time.Year) ==0)
                     {
                         newList.Add(prod.Value);
                         Variables.Prod.Remove(prod.Value._Key());

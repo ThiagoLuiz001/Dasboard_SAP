@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DashBoard_SAP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d81a0dc6599d19a6709b897cdbee3340949b6b58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4b55e9c525e1de5150b3f5a8cd38a940d62f021")]
 [assembly: System.Reflection.AssemblyProductAttribute("DashBoard_SAP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DashBoard_SAP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

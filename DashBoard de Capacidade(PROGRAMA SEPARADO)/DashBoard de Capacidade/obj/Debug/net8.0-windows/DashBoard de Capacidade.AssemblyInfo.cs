@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DashBoard de Capacidade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4b55e9c525e1de5150b3f5a8cd38a940d62f021")]
 [assembly: System.Reflection.AssemblyProductAttribute("DashBoard de Capacidade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DashBoard de Capacidade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
