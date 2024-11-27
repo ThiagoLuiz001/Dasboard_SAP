@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programação com C#\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj": {}
+    "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj": {}
   },
   "projects": {
-    "E:\\Programação com C#\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj": {
+    "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programação com C#\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
+        "projectUniqueName": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
         "projectName": "DashBoard_SAP",
-        "projectPath": "E:\\Programação com C#\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
-        "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "E:\\Programação com C#\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\obj\\",
+        "projectPath": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
+        "packagesPath": "C:\\Users\\Pcp4\\.nuget\\packages\\",
+        "outputPath": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pcp4\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +81,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

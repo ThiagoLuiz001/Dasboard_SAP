@@ -1,6 +1,7 @@
 using System;
 using System.Security.Cryptography.Pkcs;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 using DashBoard_SAP.Models.Entities;
 using DashBoard_SAP.Services;
 namespace DashBoard_SAP
@@ -19,7 +20,7 @@ namespace DashBoard_SAP
         /// Cria os displays do produto na tela
         /// </summary>
         /// <param name="prod"></param>
-        private void CreationStylePainel(Production prod)
+        private void CreationItensPainel(Production prod)
         {
             int width = pnlPrimary.Width, height = pnlPrimary.Height;
             if (lx + (int)Math.Ceiling(width * (22.0 / 100)) > pnlPrimary.Width)
@@ -47,7 +48,7 @@ namespace DashBoard_SAP
                 Font = new Font("Tahoma",Font.GetNewHeight(16),FontStyle.Bold | FontStyle.Italic),
                 BackColor = Color.FromArgb(228,112,33),
                 ForeColor = Color.Snow,
-                Size = new Size(Size.GetNewSizeX(150),30) 
+                Size = new Size(Size.GetNewSizeX(150),30),
                 Text = prod.Product,
                 Location =  new Point(picture.Width + 25 + picture.Location.X, picture.Location.Y ),
                 
@@ -59,9 +60,9 @@ namespace DashBoard_SAP
                 ForeColor = Color.Snow,
                 Size = new Size(Size.GetNewSizeX(300), 150),
                 Location = new Point(picture.Width + 7 + picture.Location.X, title.Location.Y + 40 ),
-                Text =$"Capacidade: {prod.Capacity.ToString("F2")} UN" +
-                $"\n\nProduzindo: {prod._Production.ToString("F2")} UN" +
-                $"\n\nCap. Atual: {prod.Consumption.ToString("F2")} UN"
+                Text =$"Capacidade: {prod.Capacity.ToString("F0")} UN" +
+                $"\n\nProduzindo: {prod._Production.ToString("F0")} UN" +
+                $"\n\nCap. Atual: {prod.Consumption.ToString("F0")} UN"
             };
 
 
@@ -74,6 +75,69 @@ namespace DashBoard_SAP
 
         }
 
+        private void CreationGraphicPainel()
+        {
+            
+            int initX = 22, initY = (int)Math.Ceiling(pnlPrimary.Height * 0.43), width = pnlPrimary.Width;
+
+            var painel1 = new Style_Panel
+            {
+                Location = new Point(initX, initY),
+                BackColor = Color.FromArgb(228, 112, 33),
+                Width = (int)Math.Ceiling((width * 0.22) * 2.5 +22),
+                Height = (int)Math.Ceiling(pnlPrimary.Height * 0.53)
+            };
+            var title1 = new Label
+            {
+                Font = new Font("Tahoma", Font.GetNewHeight(18), FontStyle.Bold | FontStyle.Italic),
+                BackColor = Color.FromArgb(228, 112, 33),
+                ForeColor = Color.Snow,
+                Size = new Size(Size.GetNewSizeX(500), 30),
+                Text = "Grafico de Produção X Capacidade",
+                Location = new Point((int)Math.Ceiling(painel1.Width / 4.5 ), 10),
+            };
+            var graphics1 = new Chart
+            {
+                BackColor = Color.FromArgb(228,112,33),
+                BackGradientStyle = GradientStyle.TopBottom,
+                Location = new Point(0, title1.Size.Height + 50),
+                Size = new Size(painel1.Size.Width, painel1.Size.Height - title1.Size.Height + 50)
+            };
+            //graphics1.Series.Add();
+            painel1.Controls.Add(title1);
+            painel1.Controls.Add(graphics1);
+
+
+
+            var painel2 = new Style_Panel
+            {
+                Location = new Point(initX + painel1.Width + 22, initY),
+                BackColor = Color.FromArgb(228, 112, 33),
+                Width = (int)Math.Ceiling((width * 0.22) * 1.5 +22),
+                Height = (int)Math.Ceiling(pnlPrimary.Height * 0.53)
+            };
+            var group2 = new Style_GroupBox
+            {
+                Location = new Point(10, 10),
+                BorderColor = Color.Snow,
+                BackColor = painel2.BackColor,
+                ForeColor = Color.Snow,
+                Font = title1.Font,
+                Size = new Size(painel2.Width -20, painel2.Height -20),
+                Text = "Grafico de Produção do Item"
+            };
+            painel2.Controls.Add(group2);
+            this.pnlPrimary.Controls.Add(painel1);
+            this.pnlPrimary.Controls.Add(painel2);
+            
+        }
+
+
+        private void AdjustSizes()
+        {
+
+        }
+
         public FrmDash()
         {
             InitializeComponent();
@@ -82,13 +146,16 @@ namespace DashBoard_SAP
             var p2 = new Production("Purse", 1200, 1200, DateTime.Now);
             var p3 = new Production("Diplomata", 8000, 6555, DateTime.Now);
             var p4 = new Production("Matheus", 10, 4, DateTime.Now);
+            var p5 = new Production("Thiago", 10, 4, DateTime.Now);
             Variables.Prod.Add(p1._Key(),p1);
             Variables.Prod.Add(p2._Key(), p2);
             Variables.Prod.Add(p3._Key(), p3);
             Variables.Prod.Add(p4._Key(), p4);
+            Variables.Prod.Add(p5._Key(), p5);
             foreach (var prod in Variables.Prod.Values){
-                CreationStylePainel(prod);
+                CreationItensPainel(prod);
             }
+            CreationGraphicPainel();
             
         
         }

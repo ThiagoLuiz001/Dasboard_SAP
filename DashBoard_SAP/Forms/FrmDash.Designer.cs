@@ -99,6 +99,7 @@
             style_Panel3.Name = "style_Panel3";
             style_Panel3.Size = new Size(477, 319);
             style_Panel3.TabIndex = 2;
+            style_Panel3.Visible = false;
             // 
             // chart1
             // 
