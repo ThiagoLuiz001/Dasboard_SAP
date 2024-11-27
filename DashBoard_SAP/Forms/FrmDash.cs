@@ -14,7 +14,11 @@ namespace DashBoard_SAP
             int screenWidth = Screen.PrimaryScreen.Bounds.Width;
             int screenHeight = Screen.PrimaryScreen.Bounds.Height -30;
             this.Size = new Size(screenWidth, screenHeight);
-        }
+            this.pnlMenu.Size = new Size((int)Math.Ceiling(screenWidth * 0.12), pnlMenu.Height);
+        }/// <summary>
+        /// Cria os displays do produto na tela
+        /// </summary>
+        /// <param name="prod"></param>
         private void CreationStylePainel(Production prod)
         {
             int width = pnlPrimary.Width, height = pnlPrimary.Height;
@@ -38,24 +42,22 @@ namespace DashBoard_SAP
                 Image = Properties.Resources.porta_bugigangas,
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
-            
             var title = new Label
             {
-                Font = new Font("Tahoma", 16, FontStyle.Bold | FontStyle.Italic),
+                Font = new Font("Tahoma",Font.GetNewHeight(16),FontStyle.Bold | FontStyle.Italic),
                 BackColor = Color.FromArgb(228,112,33),
                 ForeColor = Color.Snow,
-                Size = new Size(150,30) ,
+                Size = new Size(Size.GetNewSizeX(150),30) 
                 Text = prod.Product,
                 Location =  new Point(picture.Width + 25 + picture.Location.X, picture.Location.Y ),
                 
             };
-
             var desccription = new Label
             {
-                Font = new Font("Tahoma", 8, FontStyle.Bold),
+                Font = new Font("Tahoma",Font.GetNewHeight(8), FontStyle.Bold),
                 BackColor = Color.FromArgb(228, 112, 33),
                 ForeColor = Color.Snow,
-                Size = new Size(300, 150),
+                Size = new Size(Size.GetNewSizeX(300), 150),
                 Location = new Point(picture.Width + 7 + picture.Location.X, title.Location.Y + 40 ),
                 Text =$"Capacidade: {prod.Capacity.ToString("F2")} UN" +
                 $"\n\nProduzindo: {prod._Production.ToString("F2")} UN" +
@@ -88,11 +90,7 @@ namespace DashBoard_SAP
                 CreationStylePainel(prod);
             }
             
-        }
-
-        private void FrmDash_Load(object sender, EventArgs e)
-        {
-
+        
         }
 
         private void FrmDash_Load_1(object sender, EventArgs e)

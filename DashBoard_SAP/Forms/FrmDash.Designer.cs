@@ -54,7 +54,7 @@
             pnlMenu.Dock = DockStyle.Left;
             pnlMenu.Location = new Point(0, 0);
             pnlMenu.Name = "pnlMenu";
-            pnlMenu.Size = new Size(147, 861);
+            pnlMenu.Size = new Size(175, 861);
             pnlMenu.TabIndex = 0;
             // 
             // style_GroupBox1
@@ -63,18 +63,18 @@
             style_GroupBox1.BorderSize = 2;
             style_GroupBox1.Controls.Add(pictureBox1);
             style_GroupBox1.CornerRadius = 15;
-            style_GroupBox1.Location = new Point(12, 12);
+            style_GroupBox1.Location = new Point(3, 12);
             style_GroupBox1.Name = "style_GroupBox1";
-            style_GroupBox1.Size = new Size(118, 89);
+            style_GroupBox1.Size = new Size(166, 96);
             style_GroupBox1.TabIndex = 1;
             style_GroupBox1.TabStop = false;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(6, 11);
+            pictureBox1.Location = new Point(9, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(106, 66);
+            pictureBox1.Size = new Size(151, 78);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -85,9 +85,9 @@
             pnlPrimary.Controls.Add(style_Panel3);
             pnlPrimary.CornerRadius = 30;
             pnlPrimary.Dock = DockStyle.Fill;
-            pnlPrimary.Location = new Point(147, 0);
+            pnlPrimary.Location = new Point(175, 0);
             pnlPrimary.Name = "pnlPrimary";
-            pnlPrimary.Size = new Size(1277, 861);
+            pnlPrimary.Size = new Size(1249, 861);
             pnlPrimary.TabIndex = 1;
             // 
             // style_Panel3
