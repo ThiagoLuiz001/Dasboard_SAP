@@ -72,14 +72,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmDashBoard.cs [Projeto]",
+              "Title": "FrmDashBoard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard de Capacidade(PROGRAMA SEPARADO)\\DashBoard de Capacidade\\Forms\\FrmDashBoard.cs",
               "RelativeDocumentMoniker": "DashBoard de Capacidade\\Forms\\FrmDashBoard.cs",
-              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard de Capacidade(PROGRAMA SEPARADO)\\DashBoard de Capacidade\\Forms\\FrmDashBoard.cs [Projeto]",
-              "RelativeToolTip": "DashBoard de Capacidade\\Forms\\FrmDashBoard.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard de Capacidade(PROGRAMA SEPARADO)\\DashBoard de Capacidade\\Forms\\FrmDashBoard.cs [Design]",
+              "RelativeToolTip": "DashBoard de Capacidade\\Forms\\FrmDashBoard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T16:19:59.971Z",
-              "EditorCaption": " [Projeto]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -114,8 +114,7 @@
               "RelativeToolTip": "DashBoard de Capacidade\\Models\\Base.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T13:03:16.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T13:03:16.158Z"
             },
             {
               "$type": "Document",
@@ -127,8 +126,7 @@
               "RelativeToolTip": "DashBoard de Capacidade\\Models\\Capacity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T14:39:41.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T14:39:41.124Z"
             },
             {
               "$type": "Document",
