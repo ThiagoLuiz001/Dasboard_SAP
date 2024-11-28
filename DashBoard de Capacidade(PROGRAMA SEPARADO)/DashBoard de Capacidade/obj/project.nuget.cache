@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "0FU6kFDkN8s=",
+  "dgSpecHash": "mZT2181wz0g=",
   "success": true,
-  "projectFilePath": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard de Capacidade(PROGRAMA SEPARADO)\\DashBoard de Capacidade\\DashBoard de Capacidade.csproj",
+  "projectFilePath": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard de Capacidade(PROGRAMA SEPARADO)\\DashBoard de Capacidade\\DashBoard de Capacidade.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Pcp4\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
-    "C:\\Users\\Pcp4\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",
-    "C:\\Users\\Pcp4\\.nuget\\packages\\google.apis.core\\1.68.0\\google.apis.core.1.68.0.nupkg.sha512",
-    "C:\\Users\\Pcp4\\.nuget\\packages\\google.apis.sheets.v4\\1.68.0.3484\\google.apis.sheets.v4.1.68.0.3484.nupkg.sha512",
-    "C:\\Users\\Pcp4\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Pcp4\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
-    "C:\\Users\\Pcp4\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512",
-    "C:\\Users\\Pcp4\\.nuget\\packages\\winforms.datavisualization\\1.9.2\\winforms.datavisualization.1.9.2.nupkg.sha512"
+    "C:\\Users\\Thiago\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
+    "C:\\Users\\Thiago\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",
+    "C:\\Users\\Thiago\\.nuget\\packages\\google.apis.core\\1.68.0\\google.apis.core.1.68.0.nupkg.sha512",
+    "C:\\Users\\Thiago\\.nuget\\packages\\google.apis.sheets.v4\\1.68.0.3484\\google.apis.sheets.v4.1.68.0.3484.nupkg.sha512",
+    "C:\\Users\\Thiago\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Thiago\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Thiago\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512",
+    "C:\\Users\\Thiago\\.nuget\\packages\\winforms.datavisualization\\1.9.2\\winforms.datavisualization.1.9.2.nupkg.sha512"
   ],
   "logs": []
 }

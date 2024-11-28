@@ -1800,23 +1800,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pcp4\\.nuget\\packages\\": {},
+    "C:\\Users\\Thiago\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
+      "projectUniqueName": "C:\\Users\\Thiago\\Source\\Repos\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
       "projectName": "DashBoard_SAP",
-      "projectPath": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
-      "packagesPath": "C:\\Users\\Pcp4\\.nuget\\packages\\",
-      "outputPath": "C:\\Programas para salvar\\DashBoard_SAP\\DashBoard_SAP\\obj\\",
+      "projectPath": "C:\\Users\\Thiago\\Source\\Repos\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
+      "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thiago\\Source\\Repos\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pcp4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Thiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1825,6 +1825,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1880,7 +1881,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
