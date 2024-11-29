@@ -16,7 +16,5 @@ namespace DashBoard_SAP.Forms
         {
             InitializeComponent();
         }
-
-
     }
 }

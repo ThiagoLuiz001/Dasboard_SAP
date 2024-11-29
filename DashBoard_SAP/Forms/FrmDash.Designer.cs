@@ -33,7 +33,6 @@
             groupImage = new Style_GroupBox();
             logo = new PictureBox();
             pnlPrimary = new Style_Panel();
-            style_Button1 = new Style_Button();
             pnlMenu.SuspendLayout();
             groupImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
@@ -42,7 +41,6 @@
             // pnlMenu
             // 
             pnlMenu.BackColor = Color.FromArgb(31, 31, 31);
-            pnlMenu.Controls.Add(style_Button1);
             pnlMenu.Controls.Add(groupImage);
             pnlMenu.CornerRadius = 30;
             pnlMenu.Dock = DockStyle.Left;
@@ -83,15 +81,6 @@
             pnlPrimary.Size = new Size(1195, 749);
             pnlPrimary.TabIndex = 1;
             // 
-            // style_Button1
-            // 
-            style_Button1.Location = new Point(0, 142);
-            style_Button1.Name = "style_Button1";
-            style_Button1.Size = new Size(175, 56);
-            style_Button1.TabIndex = 2;
-            style_Button1.Text = "style_Button1";
-            style_Button1.UseVisualStyleBackColor = true;
-            // 
             // FrmDash
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -117,6 +106,5 @@
         private PictureBox logo;
         private Style_Panel pnlPrimary;
         private Style_GroupBox groupImage;
-        private Style_Button style_Button1;
     }
 }

@@ -172,3 +172,4 @@ C:\Users\Thiago\Source\Repos\ThiagoLuiz001\Dasboard_SAP\DashBoard_SAP\obj\Debug\
 C:\Users\Thiago\Source\Repos\ThiagoLuiz001\Dasboard_SAP\DashBoard_SAP\obj\Debug\net8.0-windows\DashBoard_SAP.pdb
 C:\Users\Thiago\Source\Repos\ThiagoLuiz001\Dasboard_SAP\DashBoard_SAP\obj\Debug\net8.0-windows\DashBoard_SAP.genruntimeconfig.cache
 C:\Users\Thiago\Source\Repos\ThiagoLuiz001\Dasboard_SAP\DashBoard_SAP\obj\Debug\net8.0-windows\ref\DashBoard_SAP.dll
+E:\Programação com C#\ThiagoLuiz001\Dasboard_SAP\DashBoard_SAP\obj\Debug\net8.0-windows\DashBoard_SAP.Style_Grid.resources

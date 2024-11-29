@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Dasboard_SAP\\",
+  "WorkspaceRootPath": "E:\\Programa\u00E7\u00E3o com C#\\ThiagoLuiz001\\Dasboard_SAP\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -26,6 +26,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

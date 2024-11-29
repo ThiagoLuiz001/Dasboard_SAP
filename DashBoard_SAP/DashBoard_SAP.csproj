@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Forms\Style\" />
     <Folder Include="Models\Interfaces\" />
   </ItemGroup>
 

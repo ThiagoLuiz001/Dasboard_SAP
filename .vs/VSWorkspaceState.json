@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\DashBoard_SAP",
-    "\\DashBoard_SAP\\Forms"
+    "\\DashBoard_SAP\\Forms",
+    "\\DashBoard_SAP\\Forms\\Style"
   ],
-  "SelectedNode": "\\DashBoard_SAP\\Forms\\FrmDash.cs",
+  "SelectedNode": "\\DashBoard_SAP\\Forms\\Style\\Style_GroupBox.cs",
   "PreviewInSolutionExplorer": false
 }

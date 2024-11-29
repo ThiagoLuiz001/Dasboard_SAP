@@ -18,7 +18,7 @@ namespace System
         static int GetValue()
         {
             int tam = 1440;
-            return tam.CompareTo(Screen.PrimaryScreen.Bounds.Width);
+            return tam.CompareTo(Screen.PrimaryScreen.Bounds.Width );
         }
         /// <summary>
         /// retorna o valor em porcetangem da diferença do tamanho

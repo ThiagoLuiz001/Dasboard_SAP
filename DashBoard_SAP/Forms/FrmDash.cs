@@ -13,7 +13,7 @@ namespace DashBoard_SAP
         private void SizeScreen()
         {
             int screenWidth = Screen.PrimaryScreen.Bounds.Width;
-            int screenHeight = Screen.PrimaryScreen.Bounds.Height - 30;
+            int screenHeight = Screen.PrimaryScreen.Bounds.Height  - -30;
             this.Size = new Size(screenWidth, screenHeight);
             this.pnlMenu.Size = new Size((int)Math.Ceiling(screenWidth * 0.12), pnlMenu.Height);
         }/// <summary>
@@ -23,9 +23,9 @@ namespace DashBoard_SAP
         private void CreationItensPainel(Production prod)
         {
             int width = pnlPrimary.Width, height = pnlPrimary.Height;
-            if (lx + (int)Math.Ceiling(width * (22.0 / 100)) > pnlPrimary.Width)
+            if (lx + (int)Math.Ceiling(width * .22) > pnlPrimary.Width)
             {
-                ly += ((int)Math.Ceiling(height * (17.0 / 100)) + 22);
+                ly += ((int)Math.Ceiling(height * .17 )+ 22);
                 lx = 22;
             }
 
@@ -70,7 +70,7 @@ namespace DashBoard_SAP
             painel.Controls.Add(title);
             painel.Controls.Add(desccription);
             this.pnlPrimary.Controls.Add(painel);
-            lx += (int)Math.Ceiling(width * (22.0 / 100)) + 22;
+            lx += (int)Math.Ceiling(width * .22) + 22;
 
 
         }
@@ -80,21 +80,21 @@ namespace DashBoard_SAP
         private void CreationGraphicPainel()
         {
             
-            int initX = 22, initY = (int)Math.Ceiling(pnlPrimary.Height * 0.43), width = pnlPrimary.Width;
+            int initX = 22, initY = (int)Math.Ceiling(pnlPrimary.Height * 0.43), width = pnlPrimary.Width, height = pnlPrimary.Height;
             // Primeiro Grafico________________________________________________________________
             var painel1 = new Style_Panel
             {
-                Location = new Point(initX, initY),
+                Location = new Point(initX, (int)Math.Ceiling((height * 0.17) *2 + 74)),
                 BackColor = Color.FromArgb(228, 112, 33),
                 Width = (int)Math.Ceiling((width * 0.22) * 2.5 + 22),
-                Height = (int)Math.Ceiling(pnlPrimary.Height * 0.53)
+                Height = (int)Math.Ceiling(pnlPrimary.Height * 0.53 + 30)
             };
             var title1 = new Label
             {
                 Font = new Font("Tahoma", Font.GetNewHeight(18), FontStyle.Bold | FontStyle.Italic),
                 BackColor = Color.FromArgb(228, 112, 33),
                 ForeColor = Color.Snow,
-                Size = new Size(Size.GetNewSizeX(500), 30),
+                Size = new Size(Size.GetNewSizeX(500), 50),
                 Text = "Grafico de Produção X Capacidade",
                 Location = new Point((int)Math.Ceiling(painel1.Width / 4.5), 10),
             };
@@ -102,7 +102,7 @@ namespace DashBoard_SAP
             {
                 BackColor = Color.FromArgb(228, 112, 33),
                 BackGradientStyle = GradientStyle.TopBottom,
-                Location = new Point(0, title1.Size.Height + 50),
+                Location = new Point(0, title1.Size.Height + 70),
                 Size = new Size(painel1.Size.Width , painel1.Size.Height - title1.Size.Height - 50),
                 ForeColor = Color.Black,
 
@@ -165,10 +165,10 @@ namespace DashBoard_SAP
             //Grafico 2 _________________________________________________________________
             var painel2 = new Style_Panel
             {
-                Location = new Point(initX + painel1.Width + 22, initY),
+                Location = new Point(initX + painel1.Width + 22, (int)Math.Ceiling((height * 0.17) * 2 + 74)),
                 BackColor = Color.FromArgb(228, 112, 33),
                 Width = (int)Math.Ceiling((width * 0.22) * 1.5 + 22),
-                Height = (int)Math.Ceiling(pnlPrimary.Height * 0.53)
+                Height = (int)Math.Ceiling(pnlPrimary.Height * 0.53 + 30)
             };
             var group2 = new Style_GroupBox
             {
