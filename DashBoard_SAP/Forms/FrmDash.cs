@@ -2,6 +2,7 @@ using System;
 using System.Security.Cryptography.Pkcs;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
+using DashBoard_SAP.Forms;
 using DashBoard_SAP.Models.Entities;
 using DashBoard_SAP.Services;
 namespace DashBoard_SAP
@@ -9,23 +10,31 @@ namespace DashBoard_SAP
     public partial class FrmDash : Form
     {
         private int lx = 22, ly = 30;
-
+        /// <summary>
+        /// Ajusta o tamanho do form conforme o display da tela
+        /// </summary>
         private void SizeScreen()
         {
             int screenWidth = Screen.PrimaryScreen.Bounds.Width;
-            int screenHeight = Screen.PrimaryScreen.Bounds.Height  - -30;
+            int screenHeight = Screen.PrimaryScreen.Bounds.Height - Convert.ToInt32(Screen.PrimaryScreen.Bounds.Height - Screen.PrimaryScreen.WorkingArea.Height);
             this.Size = new Size(screenWidth, screenHeight);
             this.pnlMenu.Size = new Size((int)Math.Ceiling(screenWidth * 0.12), pnlMenu.Height);
-        }/// <summary>
-         /// Cria os displays do produto na tela
-         /// </summary>
-         /// <param name="prod"></param>
+        }
+
+
+
+
+
+        /// <summary>
+        /// Cria os displays do produto na tela
+        /// </summary>
+        /// <param name="prod"></param>
         private void CreationItensPainel(Production prod)
         {
             int width = pnlPrimary.Width, height = pnlPrimary.Height;
             if (lx + (int)Math.Ceiling(width * .22) > pnlPrimary.Width)
             {
-                ly += ((int)Math.Ceiling(height * .17 )+ 22);
+                ly += ((int)Math.Ceiling(height * .17) + 22);
                 lx = 22;
             }
 
@@ -74,20 +83,26 @@ namespace DashBoard_SAP
 
 
         }
+
+
+
+
+
+
         /// <summary>
         /// Cria os graficos da pagina
         /// </summary>
         private void CreationGraphicPainel()
         {
-            
+
             int initX = 22, initY = (int)Math.Ceiling(pnlPrimary.Height * 0.43), width = pnlPrimary.Width, height = pnlPrimary.Height;
             // Primeiro Grafico________________________________________________________________
             var painel1 = new Style_Panel
             {
-                Location = new Point(initX, (int)Math.Ceiling((height * 0.17) *2 + 74)),
+                Location = new Point(initX, (int)Math.Ceiling((height * 0.17) * 2 + 74)),
                 BackColor = Color.FromArgb(228, 112, 33),
                 Width = (int)Math.Ceiling((width * 0.22) * 2.5 + 22),
-                Height = (int)Math.Ceiling(pnlPrimary.Height * 0.53 + 30)
+                Height = (int)Math.Ceiling(Screen.PrimaryScreen.Bounds.Height < 900 ? pnlPrimary.Height * 0.53 : pnlPrimary.Height * 0.53 - 30)
             };
             var title1 = new Label
             {
@@ -102,8 +117,8 @@ namespace DashBoard_SAP
             {
                 BackColor = Color.FromArgb(228, 112, 33),
                 BackGradientStyle = GradientStyle.TopBottom,
-                Location = new Point(0, title1.Size.Height + 70),
-                Size = new Size(painel1.Size.Width , painel1.Size.Height - title1.Size.Height - 50),
+                Location = new Point(0, Screen.PrimaryScreen.Bounds.Height > 900 ? title1.Size.Height + 70 : title1.Size.Height + 50),
+                Size = new Size(painel1.Size.Width, painel1.Size.Height - title1.Size.Height - 50),
                 ForeColor = Color.Black,
 
 
@@ -111,8 +126,8 @@ namespace DashBoard_SAP
 
             var legend = new Legend("Producao")
             {
-                Title = "Legendas", 
-                Docking = Docking.Right, 
+                Title = "Legendas",
+                Docking = Docking.Right,
                 Alignment = StringAlignment.Near
             };
             graphics1.Legends.Add(legend);
@@ -125,7 +140,7 @@ namespace DashBoard_SAP
             {
                 ChartType = SeriesChartType.StackedBar,
                 LabelForeColor = Color.Black,
-                Color = Color.FromArgb(228,111,30),
+                Color = Color.FromArgb(228, 111, 30),
                 Legend = "Producao"
             };
             double m = 0;
@@ -150,9 +165,9 @@ namespace DashBoard_SAP
             graphics1.Series.Add(seriesA);
             graphics1.Series.Add(seriesB);
             m = -0.4;
-            foreach(var prod in Variables.Prod.Values)
+            foreach (var prod in Variables.Prod.Values)
             {
-                graphics1.ChartAreas[0].AxisX.CustomLabels.Add(m, m +1, prod.Product);
+                graphics1.ChartAreas[0].AxisX.CustomLabels.Add(m, m + 1, prod.Product);
                 m++;
             }
 
@@ -168,7 +183,7 @@ namespace DashBoard_SAP
                 Location = new Point(initX + painel1.Width + 22, (int)Math.Ceiling((height * 0.17) * 2 + 74)),
                 BackColor = Color.FromArgb(228, 112, 33),
                 Width = (int)Math.Ceiling((width * 0.22) * 1.5 + 22),
-                Height = (int)Math.Ceiling(pnlPrimary.Height * 0.53 + 30)
+                Height = (int)Math.Ceiling(Screen.PrimaryScreen.Bounds.Height < 900 ? pnlPrimary.Height * 0.53 : pnlPrimary.Height * 0.53 - 30)
             };
             var group2 = new Style_GroupBox
             {
@@ -187,10 +202,24 @@ namespace DashBoard_SAP
         }
 
 
+
+
+
+
+
+        /// <summary>
+        /// Ajustas os objetos já criados no form
+        /// </summary>
         private void AdjustSizes()
         {
+            groupImage.Location = new Point(5, 10);
             groupImage.Size = new Size(pnlMenu.Width - 10, (int)Math.Ceiling(pnlMenu.Height * .13));
             logo.Size = new Size(groupImage.Width - 20, groupImage.Height - 20);
+            btnRefresh.Location = new Point(0, groupImage.Location.Y + groupImage.Height + 30);
+            btnRefresh.Size = new Size(pnlMenu.Width, (int)Math.Ceiling(pnlMenu.Height * 0.05));
+            btnCapacity.Location = new Point(0, btnRefresh.Location.Y + btnRefresh.Height + 5);
+            btnCapacity.Size = new Size(pnlMenu.Width, (int)Math.Ceiling(pnlMenu.Height * 0.05));
+
         }
 
         public FrmDash()
@@ -219,6 +248,12 @@ namespace DashBoard_SAP
         private void FrmDash_Load_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCapacity_Click(object sender, EventArgs e)
+        {
+            var frm =new  FrmConfiguration();
+            frm.Show();
         }
     }
 }

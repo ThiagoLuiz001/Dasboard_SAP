@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDash));
             pnlMenu = new Style_Panel();
+            btnRefresh = new Style_Button();
+            btnCapacity = new Style_Button();
             groupImage = new Style_GroupBox();
             logo = new PictureBox();
             pnlPrimary = new Style_Panel();
@@ -41,6 +43,8 @@
             // pnlMenu
             // 
             pnlMenu.BackColor = Color.FromArgb(31, 31, 31);
+            pnlMenu.Controls.Add(btnRefresh);
+            pnlMenu.Controls.Add(btnCapacity);
             pnlMenu.Controls.Add(groupImage);
             pnlMenu.CornerRadius = 30;
             pnlMenu.Dock = DockStyle.Left;
@@ -48,6 +52,47 @@
             pnlMenu.Name = "pnlMenu";
             pnlMenu.Size = new Size(175, 749);
             pnlMenu.TabIndex = 0;
+            // 
+            // btnRefresh
+            // 
+            btnRefresh.CornerRadius = 15;
+            btnRefresh.Cursor = Cursors.Hand;
+            btnRefresh.FlatAppearance.BorderSize = 0;
+            btnRefresh.FlatAppearance.MouseDownBackColor = Color.FromArgb(228, 112, 33);
+            btnRefresh.FlatAppearance.MouseOverBackColor = Color.FromArgb(1, 1, 1);
+            btnRefresh.FlatStyle = FlatStyle.Flat;
+            btnRefresh.Font = new Font("Tahoma", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRefresh.ForeColor = Color.Snow;
+            btnRefresh.Image = (Image)resources.GetObject("btnRefresh.Image");
+            btnRefresh.ImageAlign = ContentAlignment.MiddleLeft;
+            btnRefresh.Location = new Point(3, 202);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new Size(172, 37);
+            btnRefresh.TabIndex = 3;
+            btnRefresh.Text = "Atualizar";
+            btnRefresh.TextAlign = ContentAlignment.MiddleRight;
+            btnRefresh.UseVisualStyleBackColor = true;
+            // 
+            // btnCapacity
+            // 
+            btnCapacity.CornerRadius = 15;
+            btnCapacity.Cursor = Cursors.Hand;
+            btnCapacity.FlatAppearance.BorderSize = 0;
+            btnCapacity.FlatAppearance.MouseDownBackColor = Color.FromArgb(228, 112, 33);
+            btnCapacity.FlatAppearance.MouseOverBackColor = Color.FromArgb(1, 1, 1);
+            btnCapacity.FlatStyle = FlatStyle.Flat;
+            btnCapacity.Font = new Font("Tahoma", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCapacity.ForeColor = Color.Snow;
+            btnCapacity.Image = (Image)resources.GetObject("btnCapacity.Image");
+            btnCapacity.ImageAlign = ContentAlignment.MiddleLeft;
+            btnCapacity.Location = new Point(3, 245);
+            btnCapacity.Name = "btnCapacity";
+            btnCapacity.Size = new Size(172, 37);
+            btnCapacity.TabIndex = 2;
+            btnCapacity.Text = "Capacidade";
+            btnCapacity.TextAlign = ContentAlignment.MiddleRight;
+            btnCapacity.UseVisualStyleBackColor = true;
+            btnCapacity.Click += btnCapacity_Click;
             // 
             // groupImage
             // 
@@ -106,5 +151,7 @@
         private PictureBox logo;
         private Style_Panel pnlPrimary;
         private Style_GroupBox groupImage;
+        private Style_Button btnCapacity;
+        private Style_Button btnRefresh;
     }
 }

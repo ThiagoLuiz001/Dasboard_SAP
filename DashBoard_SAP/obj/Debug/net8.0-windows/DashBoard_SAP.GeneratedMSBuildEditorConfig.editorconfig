@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DashBoard_SAP
-build_property.ProjectDir = E:\Programação com C#\ThiagoLuiz001\Dasboard_SAP\DashBoard_SAP\
+build_property.ProjectDir = C:\Programas Dashboard\Dasboard_SAP\DashBoard_SAP\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

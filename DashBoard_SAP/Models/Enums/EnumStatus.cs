@@ -1,10 +1,10 @@
 ﻿namespace DashBoard_SAP.Models.Enums
 {
-    public enum EnumStatus : int
+    public enum EnumStatus
     {
-        Dentro_do_Esperado = 0,
-        Atingiu_a_Meta=1,
-        Ultrapassou=2,
+        Dentro_do_Esperado,
+        Atingiu_a_Meta,
+        Ultrapassou
 
     }
 }
