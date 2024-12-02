@@ -42,7 +42,7 @@
             dtpDate = new DateTimePicker();
             txtCapacity = new TextBox();
             label2 = new Label();
-            style_GroupBox2 = new Style_GroupBox();
+            gbSearch = new Style_GroupBox();
             btnSearch = new Style_Button();
             rbSearch = new RadioButton();
             rbNew = new RadioButton();
@@ -56,7 +56,7 @@
             style_GroupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             gbItens.SuspendLayout();
-            style_GroupBox2.SuspendLayout();
+            gbSearch.SuspendLayout();
             SuspendLayout();
             // 
             // style_Panel1
@@ -77,7 +77,7 @@
             style_GroupBox1.BorderSize = 2;
             style_GroupBox1.Controls.Add(style_GroupBox3);
             style_GroupBox1.Controls.Add(gbItens);
-            style_GroupBox1.Controls.Add(style_GroupBox2);
+            style_GroupBox1.Controls.Add(gbSearch);
             style_GroupBox1.CornerRadius = 15;
             style_GroupBox1.Font = new Font("Tahoma", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             style_GroupBox1.ForeColor = Color.Snow;
@@ -224,26 +224,26 @@
             label2.TabIndex = 4;
             label2.Text = "Data:";
             // 
-            // style_GroupBox2
+            // gbSearch
             // 
-            style_GroupBox2.BorderColor = Color.Gray;
-            style_GroupBox2.BorderSize = 2;
-            style_GroupBox2.Controls.Add(btnSearch);
-            style_GroupBox2.Controls.Add(rbSearch);
-            style_GroupBox2.Controls.Add(rbNew);
-            style_GroupBox2.Controls.Add(cbFiles);
-            style_GroupBox2.Controls.Add(label3);
-            style_GroupBox2.Controls.Add(btnAdd);
-            style_GroupBox2.Controls.Add(btnEdit);
-            style_GroupBox2.Controls.Add(btnErase);
-            style_GroupBox2.CornerRadius = 15;
-            style_GroupBox2.Font = new Font("Tahoma", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            style_GroupBox2.Location = new Point(6, 26);
-            style_GroupBox2.Name = "style_GroupBox2";
-            style_GroupBox2.Size = new Size(350, 88);
-            style_GroupBox2.TabIndex = 8;
-            style_GroupBox2.TabStop = false;
-            style_GroupBox2.Text = "Configurador";
+            gbSearch.BorderColor = Color.Gray;
+            gbSearch.BorderSize = 2;
+            gbSearch.Controls.Add(btnSearch);
+            gbSearch.Controls.Add(rbSearch);
+            gbSearch.Controls.Add(rbNew);
+            gbSearch.Controls.Add(cbFiles);
+            gbSearch.Controls.Add(label3);
+            gbSearch.Controls.Add(btnAdd);
+            gbSearch.Controls.Add(btnEdit);
+            gbSearch.Controls.Add(btnErase);
+            gbSearch.CornerRadius = 15;
+            gbSearch.Font = new Font("Tahoma", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            gbSearch.Location = new Point(6, 26);
+            gbSearch.Name = "gbSearch";
+            gbSearch.Size = new Size(350, 88);
+            gbSearch.TabIndex = 8;
+            gbSearch.TabStop = false;
+            gbSearch.Text = "Configurador";
             // 
             // btnSearch
             // 
@@ -270,6 +270,7 @@
             rbSearch.TabStop = true;
             rbSearch.Text = "Pesquisar";
             rbSearch.UseVisualStyleBackColor = true;
+            rbSearch.CheckedChanged += rbSearch_CheckedChanged;
             // 
             // rbNew
             // 
@@ -282,6 +283,7 @@
             rbNew.TabStop = true;
             rbNew.Text = "Novo";
             rbNew.UseVisualStyleBackColor = true;
+            rbNew.CheckedChanged += rbNew_CheckedChanged;
             // 
             // cbFiles
             // 
@@ -360,8 +362,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             gbItens.ResumeLayout(false);
             gbItens.PerformLayout();
-            style_GroupBox2.ResumeLayout(false);
-            style_GroupBox2.PerformLayout();
+            gbSearch.ResumeLayout(false);
+            gbSearch.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -374,7 +376,7 @@
         private Label label1;
         private ComboBox cbProduct;
         private DateTimePicker dtpDate;
-        private Style_GroupBox style_GroupBox2;
+        private Style_GroupBox gbSearch;
         private Style_Button btnErase;
         private Style_Button btnAdd;
         private Style_Button btnEdit;

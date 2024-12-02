@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//ARRUMAR ESSA PORCARIA
 namespace DashBoard_SAP.DAO.Local
 {
     public class Capacity
@@ -74,5 +74,35 @@ namespace DashBoard_SAP.DAO.Local
                 MessageBox.Show(ex.Message);
             }
         }
+
+
+        public static List<string>? LoadFiles()
+        {
+            var list= new List<string>(); 
+            try
+            {
+                string _path = $@"{ConnectionFile._path}\Files\Capacity";
+                var files = Directory.EnumerateFiles(_path, ".", SearchOption.AllDirectories);
+                foreach(var f in files)
+                {
+                    
+                    list.Add(Path.GetFileNameWithoutExtension(f));
+                }
+                return list;
+            }
+            catch(IOException ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+            list.Add("N/A");
+            return list;
+        }
+        public static void OpenFiles(string path)
+        {
+            string openpath = $@"{ConnectionFile._path}\Files\Capacity\{path}.txt";
+
+        }
     }
+
+   
 }
