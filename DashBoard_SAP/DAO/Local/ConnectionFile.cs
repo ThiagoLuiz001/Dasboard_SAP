@@ -13,7 +13,7 @@ namespace DashBoard_SAP.DAO.Local
 {
     public class ConnectionFile
     {
-        public static string _path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+
 
         public static bool ExistsFile(string path)
         {
@@ -34,7 +34,7 @@ namespace DashBoard_SAP.DAO.Local
 
 
 
-        private static bool ExistDirectory(string path)
+        public static bool ExistDirectory(string path)
         {
             if (!Directory.Exists(path))
             {
@@ -46,7 +46,7 @@ namespace DashBoard_SAP.DAO.Local
 
 
 
-        public static void CreationFile (string path, string file)
+        public static void CreationFile(string path, string file)
         {
             string archive = Path.Combine(path, file) + ".txt";
             if (ExistDirectory(path))
@@ -71,6 +71,30 @@ namespace DashBoard_SAP.DAO.Local
         }
 
 
+
+        /// <summary>
+        /// Retorna os Dados do arquivo
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public static List<Production> EnterFiles(string path)
+        {
+            var product = new List<Production>();
+            if (ExistsFile(path))
+            {
+                using (StreamReader sr = File.OpenText(path))
+                {
+                    while (!sr.EndOfStream)
+                    {
+                        string line = sr.ReadLine();
+                        string[] lines = line.Split("|");
+                        product.Add(new Production(lines[0], Double.Parse(lines[1]), Double.Parse(lines[2]), DateTime.Parse(lines[3])));
+                    }
+                }
+                return product;
+            }
+            return default;
+        }
 
     }
 

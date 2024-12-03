@@ -3,6 +3,7 @@ using DashBoard_SAP.Models.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,7 +11,7 @@ namespace DashBoard_SAP.DAO.Local
 {
     public static class Report
     {
-        static string path = ConnectionFile._path +@"\Files\Reports\";
+        static string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + @"\Files\Reports\";
         public static void CreationReport(Dictionary<string, HashSet<Production>> production)
         {
             try

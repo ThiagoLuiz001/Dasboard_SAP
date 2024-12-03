@@ -1800,23 +1800,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thiago\\.nuget\\packages\\": {},
+    "C:\\Users\\thiag\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programas Dashboard\\Dasboard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
+      "projectUniqueName": "E:\\Programação com C#\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
       "projectName": "DashBoard_SAP",
-      "projectPath": "C:\\Programas Dashboard\\Dasboard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
-      "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Programas Dashboard\\Dasboard_SAP\\DashBoard_SAP\\obj\\",
+      "projectPath": "E:\\Programação com C#\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\DashBoard_SAP.csproj",
+      "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
+      "outputPath": "E:\\Programação com C#\\ThiagoLuiz001\\Dasboard_SAP\\DashBoard_SAP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Thiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1881,7 +1881,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

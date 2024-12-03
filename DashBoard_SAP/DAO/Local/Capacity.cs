@@ -7,23 +7,28 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 //ARRUMAR ESSA PORCARIA
 namespace DashBoard_SAP.DAO.Local
 {
     public class Capacity
     {
-        static string path = ConnectionFile._path + @"\Files\storage.txt";
+        static string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + @"\Files";
+
+        //______________________________________ARRUMAR
         /// <summary>
         /// Procura os dados salvos da capacidade
         /// </summary>
         /// <returns></returns>
-        public static void SearchCapacity()
+        public static void SearchStorage()
         {
-            if (ConnectionFile.ExistsFile(path))
+            var _path = path + @"\storage.tx";
+            if (ConnectionFile.ExistsFile(_path))
             {
                 try
                 {
-                    using (StreamReader sr = File.OpenText(path))
+                    
+                    using (StreamReader sr = File.OpenText(_path))
                     {
                         var p = new HashSet<Production>();
                         while (!sr.EndOfStream)
@@ -46,7 +51,7 @@ namespace DashBoard_SAP.DAO.Local
                 }
             }
         }
-
+        //__________________________________ARRUMAE
         public static void SaveCapacity()
         {
             try
@@ -81,7 +86,7 @@ namespace DashBoard_SAP.DAO.Local
             var list= new List<string>(); 
             try
             {
-                string _path = $@"{ConnectionFile._path}\Files\Capacity";
+                string _path = $@"{path}\Capacity";
                 var files = Directory.EnumerateFiles(_path, ".", SearchOption.AllDirectories);
                 foreach(var f in files)
                 {
@@ -97,12 +102,28 @@ namespace DashBoard_SAP.DAO.Local
             list.Add("N/A");
             return list;
         }
-        public static void OpenFiles(string path)
+        public static void OpenFiles(string _path)
         {
-            string openpath = $@"{ConnectionFile._path}\Files\Capacity\{path}.txt";
+            string openpath = $@"{path}\Capacity";
+            try
+            {
+                if (ConnectionFile.ExistDirectory(openpath))
+                {
+                    openpath += openpath + @$"\{_path}.txt";
+                    if (ConnectionFile.ExistsFile(openpath))
+                    {
 
+                    }
+                }
+            }
+            catch
+            {
+
+            }
         }
+
     }
+
 
    
 }
